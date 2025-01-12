@@ -1,0 +1,17 @@
+MyCppLibrary/
+├── CMakeLists.txt           # Root CMake file
+├── include/                 # Public headers
+│   ├── MyClass.h
+│   ├── Utilities.h
+├── src/                     # Source files
+│   ├── MyClass.cpp
+│   ├── Utilities.cpp
+│   ├── Main.cpp
+├── assets/                  # Icons and other assets
+│   └── library_icon.ico
+├── tests/                   # Unit tests
+│   ├── CMakeLists.txt
+│   ├── test_MyClass.cpp
+├── conanfile.py             # Conan package file
+├── README.md                # Project documentation
+└── LICENSE                  # Licensing information
